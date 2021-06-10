@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './button.module.scss';
+import { Button } from '@material-ui/core';
 
-const Button = ({click, text}) => (
-  <button className={styles.button} onClick={click}>{text}</button>
+const AppButton = ({click, text}) => (
+  <Button className={styles.button} onClick={click}>{text}</Button>
 )
 
-export default Button;
+export default AppButton;
 

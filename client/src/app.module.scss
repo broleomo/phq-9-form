@@ -6,3 +6,11 @@
   justify-content: center;
   height: 100vh;
 }
+
+.startButton {
+  background: white !important;
+
+  &:hover, &:focus {
+    background: lightgray !important;
+  }
+}
