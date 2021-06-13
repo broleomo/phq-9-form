@@ -15,4 +15,23 @@
   width: 200px;
   background: transparent !important;
   margin: 2.5em auto 0;
+  justify-content: center;
+}
+
+.selected {
+  background-color: #2D54E8 !important;
+  color: white !important;
+}
+
+.answerOption {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.submitButton {
+  background-color: #2D54E8 !important;
+  color: white !important;
+  margin: 25px auto -30px !important;
+  width: 200px;
 }

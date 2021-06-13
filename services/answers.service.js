@@ -17,7 +17,6 @@ module.exports = {
     return res.status(200).json({ answers: answers })
   },
   postAnswers: (req, res) => {
-      console.log(req.body)
       answers = req.body
       return res.status(200).json({answers: answers})
   }
