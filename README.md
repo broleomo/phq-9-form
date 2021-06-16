@@ -47,6 +47,7 @@ Trade-offs you might have made, anything you left out, or what you might do diff
 - I left out creating a way for the screener to suggest different assessments, and instead I created the full UX for one of the assessments
 - What I'd have done with more time, would be to have fleshed out the API further to store more of the data for multiple assessments
 - I also could have added some error handling to the form and persisted the "selected Item" for each question when stepping through the form
+- I also would've connected a database to store form submissions
 
 Link to your resume or public profile
 - LinkedIn profile: https://www.linkedin.com/in/brooklynnmoor/
