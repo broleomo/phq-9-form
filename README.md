@@ -11,27 +11,24 @@ Instructions for running the code locally:
 - client: cd ..
 - run node server.js
 
-You should then be able to view the application at localhost:3000 and the server at localhost:5000
+You should then be able to view the application at localhost:3000 and the server at localhost:5000. To view the submitted answers: localhost:5000/answers
 
 
 Description of the problem and solution
 
 Problem:
-- Blueprint needed a UX for administering a diagnostic screener as a multiple-choice questionnaire that determines symptom severity for disorders such as depression, anxiety, etc.
-- Blueprint needed a way to easily suggest standardized clinical assessments after completing a screener.
+- Client needed a UX for administering a diagnostic screener as a multiple-choice questionnaire that determines symptom severity for disorders such as depression, anxiety, etc.
+- Client needed a way to easily suggest standardized clinical assessments after completing a screener.
 
 Solution:
 - I created a multistep form to track answers to and returns the results of the PHQ-9 questionare
 - Answers are submitted after clicking the "Submit" button at the end of the form
 
-Reasoning behind your technical choices
+Reasoning behind technical choices
 - I decided to keep it all within my stronger wheelhouse (javascript - Node/Express & React) for client and server
 - I utilized Material UI to quickly be able to produce React components
 - Utilized CSS modules to create styling that adds unique IDs to classes, to avoid any overriding of className variables
 
-Describe how you would deploy this as a true production app on the platform of your choice:
-- I would deploy this to Heroku if I had a bit more time with this.
-- Setting this up is generally fairly straightforward and is nice to hook in the CLI for deploying to heroku directly upon pushing to master
 
 How would ensure the application is highly available and performs well?
 - I would ensure my application ran some accessibility testing, and might also add in my components to a Storybook instance (this tool has a lot of built in accessibility tools that are really nice)
