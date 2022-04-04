@@ -43,8 +43,12 @@ switch(true) {
         <span className={styles.level}>{level}</span>
       </p>
       <p>{message}</p>
-      <p>Functionally, the patient finds it is “extremely difficult” to perform life tasks due to their symptoms.</p>
-      <p>WARNING: This patient is having thoughts concerning for suicidal ideation or self-harm, and should be probed further, referred, or transferred for emergency psychiatric evaluation as clinically appropriate and depending on clinician overall risk assessment.</p>
+      {message === severe && 
+        <>
+          <p>Functionally, the patient finds it is “extremely difficult” to perform life tasks due to their symptoms.</p>
+          <p>WARNING: This patient is having thoughts concerning for suicidal ideation or self-harm, and should be probed further, referred, or transferred for emergency psychiatric evaluation as clinically appropriate and depending on clinician overall risk assessment.</p>
+        </>
+      }
     </div>
   )
 };

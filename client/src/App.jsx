@@ -60,7 +60,7 @@ const submitAnswers = () => {
     <div className={styles.formContainer}>
         {!formShow && !showResults &&
           <> 
-          <h1 className={styles.header}>Blueprint Diagnostic Screener</h1>
+          <h1 className={styles.header}>Diagnostic Screener</h1>
           <h2 className={styles.assessmentHeading}>During the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?</h2>
           <Button
             color="primary"
