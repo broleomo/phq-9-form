@@ -52,6 +52,11 @@ const updateAnswers = (data) => {
 
 const submitAnswers = () => {
   axios.post('/answers', answers)
+  .then((res) => {
+    if(res.status=== 200) {
+      console.log(res.body);
+      setResults(true);
+    } })
   setForm(false);
   setResults(true)
 }
