@@ -16,7 +16,6 @@ module.exports = {
 
       dbConnection = db.db("Cluster0");
       console.log("Successfully connected to MongoDB.");
-      console.log(dbConnection);
 
       return callback();
     });
