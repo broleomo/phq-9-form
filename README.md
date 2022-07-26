@@ -2,7 +2,7 @@
 PHQ-9 Form
 
 
-Instructions for running the code locally:
+Instructions for running the code locally: (It might be helpful to have 2 terminal tabs open, one for client and one for server)
 - git clone this repo
 - From the root of the project run yarn
 - cd client
