@@ -2,7 +2,7 @@
 PHQ-9 Form
 
 
-Instructions for running the code locally:
+Instructions for running the code locally: (It might be helpful to have 2 terminal tabs open, one for client and one for server)
 - git clone this repo
 - From the root of the project run yarn
 - cd client
@@ -43,6 +43,7 @@ What would you add to make it easier to troubleshoot problems while it is runnin
 - I'd add in react testing library tests to make sure my state management is up to snuff and updating as I'd expect while stepping through the form
 
 Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project
+- I would have hosted this app somewhere such as Heroku.
 - I left out creating a way for the screener to suggest different assessments, and instead I created the full UX for one of the assessments
 - What I'd have done with more time, would be to have fleshed out the API further to store more of the data for multiple assessments
 - I also could have added some error handling to the form and persisted the "selected Item" for each question when stepping through the form
