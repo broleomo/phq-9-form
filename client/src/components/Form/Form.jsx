@@ -20,7 +20,7 @@ const Form = ({questions, updateAnswers, submitAnswers}) => {
   return (
   <div className={styles.formContainer}>
     {questions.map((question, index) => (
-      <>
+      <React.Fragment key={index}>
       {activeStep === index && (
         <>
       <p>{question.title}</p>
@@ -34,7 +34,7 @@ const Form = ({questions, updateAnswers, submitAnswers}) => {
           <Button className={styles.submitButton} onClick={() => submitAnswers()}>Submit</Button>}
       </>
       )}
-      </>
+      </React.Fragment>
     ))}
     <MobileStepper
       variant="dots"

@@ -17,6 +17,7 @@ const FormButtonGroup = ({questionId, answers, updateAnswers, handleNext}) => {
   >
     {answers.map((answer, index) => (
       <Button 
+        key={index}
         className={index === selected ? styles.selected : ''} 
         onClick={() => chooseAnswer(questionId, answer.value)}
         value={answer.value}
